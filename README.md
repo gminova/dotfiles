@@ -1,6 +1,7 @@
 # dotfiles
 
 ## VIM Set up with Vundle (Ubuntu)
+![vim](https://github.com/gminova/dotfiles/blob/master/vim.png?raw=true)
 #### Pre-reqs: Must have Git
 ### Get Vim
 ```
