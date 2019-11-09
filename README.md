@@ -1,5 +1,33 @@
 # dotfiles
 
+## VIM Set up with Vundle (Ubuntu)
+#### Pre-reqs: Must have Git
+### Get Vim
+```
+$ sudo apt-get remove vim-tiny
+$ sudo apt-get update
+$ sudo apt-get install vim
+$ vim --version
+```
+### Get Vundle
+```
+$ git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+### Create vim profile
+```
+$ touch ~/.vimrc
+```
+### Open .vimrc and paste .vimrc settings
+```
+$ vi .vimrc
+```
+### Install Plugins
+```
+$ vi
+:PluginInstall
+```
+
+
 ## vim and system clipboard
 1. install vim-gtk3 package:
 ```bash
